@@ -45,13 +45,30 @@ user2.user_skills.create(skill_id: 7, proficiency_id: 3);
 user2.user_skills.create(skill_id: 6, proficiency_id: 2);
 
 # This is the second user data
-user2 = User.create(username: 'jhon',full_name: 'Jhon Doe')
-user2.user_experiences.create(title: 'Ruby on Rails Jr Developer', organization: 'Google', starting_date: DateTime.new(2016, 10), ending_date: DateTime.new(2020, 12))
-user2.user_experiences.create(title: 'Ruby on Rails Sr Developer', organization: 'Microsoft', starting_date: DateTime.new(2020, 12), ending_date: DateTime.new(2022, 01))
-user2.user_skills.create(skill_id: 1, proficiency_id: 3);
-user2.user_skills.create(skill_id: 3, proficiency_id: 4);
-user2.user_skills.create(skill_id: 5, proficiency_id: 5);
-user2.user_skills.create(skill_id: 7, proficiency_id: 4);
-user2.user_skills.create(skill_id: 9, proficiency_id: 3);
-user2.user_skills.create(skill_id: 11, proficiency_id: 3);
-user2.user_skills.create(skill_id: 12, proficiency_id: 5);
+user3 = User.create(username: 'jhon',full_name: 'Jhon Doe')
+user3.user_experiences.create(title: 'Ruby on Rails Jr Developer', organization: 'Google', starting_date: DateTime.new(2016, 10), ending_date: DateTime.new(2020, 12))
+user3.user_experiences.create(title: 'Ruby on Rails Sr Developer', organization: 'Microsoft', starting_date: DateTime.new(2020, 12), ending_date: DateTime.new(2022, 01))
+user3.user_skills.create(skill_id: 1, proficiency_id: 3);
+user3.user_skills.create(skill_id: 3, proficiency_id: 4);
+user3.user_skills.create(skill_id: 5, proficiency_id: 5);
+user3.user_skills.create(skill_id: 7, proficiency_id: 4);
+user3.user_skills.create(skill_id: 9, proficiency_id: 3);
+user3.user_skills.create(skill_id: 11, proficiency_id: 3);
+user3.user_skills.create(skill_id: 12, proficiency_id: 5);
+
+# This is the second user data
+user4 = User.create(username: 'jane',full_name: 'Jhon Doe')
+user4.user_experiences.create(title: 'React Jr Developer', organization: 'Twitch', starting_date: DateTime.new(2017, 2), ending_date: DateTime.new(2020, 07))
+user4.user_experiences.create(title: 'React Sr Developer', organization: 'GitLab', starting_date: DateTime.new(2020, 12), ending_date: DateTime.new(2022, 03))
+user4.user_skills.create(skill_id: 1, proficiency_id: 3);
+user4.user_skills.create(skill_id: 2, proficiency_id: 4);
+user4.user_skills.create(skill_id: 3, proficiency_id: 5);
+user4.user_skills.create(skill_id: 4, proficiency_id: 4);
+user4.user_skills.create(skill_id: 5, proficiency_id: 3);
+user4.user_skills.create(skill_id: 6, proficiency_id: 3);
+user4.user_skills.create(skill_id: 7, proficiency_id: 5);
+user4.user_skills.create(skill_id: 8, proficiency_id: 5);
+user4.user_skills.create(skill_id: 9, proficiency_id: 2);
+user4.user_skills.create(skill_id: 10, proficiency_id: 1);
+user4.user_skills.create(skill_id: 11, proficiency_id: 2);
+user4.user_skills.create(skill_id: 12, proficiency_id: 1);
