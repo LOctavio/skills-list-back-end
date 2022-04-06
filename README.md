@@ -8,11 +8,15 @@ For this project I used the following schema:
 
 ## Endpoint
 
-> api/v1/$username 
+> api/v1/users/$username 
 
 ## Built With
 
 - Ruby on rails
+
+## Live Demo
+
+[Live Demo Link](https://sheltered-gorge-66533.herokuapp.com/api/v1/users/octavio)
 
 ## Getting Started
 
