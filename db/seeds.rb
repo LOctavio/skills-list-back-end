@@ -45,7 +45,7 @@ user2.user_skills.create(skill_id: 7, proficiency_id: 3);
 user2.user_skills.create(skill_id: 6, proficiency_id: 2);
 
 # This is the second user data
-user2 = User.create(username: 'Jhon',full_name: 'Jhon Doe')
+user2 = User.create(username: 'jhon',full_name: 'Jhon Doe')
 user2.user_experiences.create(title: 'Ruby on Rails Jr Developer', organization: 'Google', starting_date: DateTime.new(2016, 10), ending_date: DateTime.new(2020, 12))
 user2.user_experiences.create(title: 'Ruby on Rails Sr Developer', organization: 'Microsoft', starting_date: DateTime.new(2020, 12), ending_date: DateTime.new(2022, 01))
 user2.user_skills.create(skill_id: 1, proficiency_id: 3);
