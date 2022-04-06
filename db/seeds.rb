@@ -56,8 +56,8 @@ user3.user_skills.create(skill_id: 9, proficiency_id: 3);
 user3.user_skills.create(skill_id: 11, proficiency_id: 3);
 user3.user_skills.create(skill_id: 12, proficiency_id: 5);
 
-# This is the second user data
-user4 = User.create(username: 'jane',full_name: 'Jhon Doe')
+# This is the second user dataeed
+user4 = User.create(username: 'jane',full_name: 'Jane Doe')
 user4.user_experiences.create(title: 'React Jr Developer', organization: 'Twitch', starting_date: DateTime.new(2017, 2), ending_date: DateTime.new(2020, 07))
 user4.user_experiences.create(title: 'React Sr Developer', organization: 'GitLab', starting_date: DateTime.new(2020, 12), ending_date: DateTime.new(2022, 03))
 user4.user_skills.create(skill_id: 1, proficiency_id: 3);
